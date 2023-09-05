@@ -1,16 +1,30 @@
 import { ReactNode, useEffect, useState } from "react";
 import { render } from "react-dom";
 
+let stringIndex = -1;
+
 interface Props {
   height: string;
   width: string;
   type: string; // Type can be either image or text
   styling: string;
+  text?: string;
   children?: ReactNode;
+  child_styling: string;
 }
 
-const Card = ({ height, width, type, styling, children }: Props) => {
+const Card = ({
+  height,
+  width,
+  type,
+  styling,
+  text,
+  children,
+  child_styling,
+}: Props) => {
   const [imageNum, updateImageNum] = useState(0);
+
+  const [sentence, updateSentence] = useState("");
 
   const imageURLs = [
     "src/assets/main_screen_picture.jpg",
@@ -18,10 +32,29 @@ const Card = ({ height, width, type, styling, children }: Props) => {
     "src/assets/main_screen_picture3.jpg",
   ];
 
-  const innerText = children?.toString();
-  if (innerText != undefined) {
-    const textArr = innerText.split("");
-    console.log(`TestARR: ${textArr}`);
+  if (type == "text") {
+    console.log("in if statement");
+    const innerText = text;
+    if (innerText != undefined) {
+      const textArr = innerText.split("");
+      let stillTyping = true;
+
+      useEffect(() => {
+        const buildSentence = setInterval(() => {
+          if (stringIndex < textArr.length - 1) {
+            stringIndex += 1;
+            if (stillTyping) {
+              updateSentence(sentence + textArr[stringIndex]);
+            }
+          } else {
+            stringIndex = 0;
+            stillTyping = false;
+          }
+        }, 100);
+
+        return () => clearInterval(buildSentence);
+      });
+    }
   }
 
   if (type == "image") {
@@ -51,7 +84,8 @@ const Card = ({ height, width, type, styling, children }: Props) => {
   return (
     <div className={"card " + styling} style={{ height: height, width: width }}>
       <>{type == "image" ? renderImage() : null}</>
-      {children != undefined ? children : null}
+      <p className={child_styling}>{children != undefined ? children : null}</p>
+      <p className="desc_text">{text != undefined ? sentence + "|" : null}</p>
     </div>
   );
 };

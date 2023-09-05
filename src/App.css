@@ -52,3 +52,19 @@ html {
   padding-right: 35px;
   padding-top: 45px;
 }
+
+.hi_title {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.desc_text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 19px;
+}
