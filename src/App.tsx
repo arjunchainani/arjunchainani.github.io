@@ -30,6 +30,42 @@ function App() {
         >
           Hi, I'm Arjun Chainani.
         </Card>
+        <Card
+          height="auto"
+          width="1450px"
+          type="info"
+          styling="findme_card"
+          child_styling="findme_text"
+        >
+          Find me on:
+          <a href="https://github.com/arjunchainani" target="_blank">
+            <img
+              src="src/assets/logos/github.png"
+              height="150px"
+              width="150px"
+              className="findme_img img1"
+            ></img>
+          </a>
+          <a
+            href="https://devpost.com/cyberzombiequest?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav"
+            target="_blank"
+          >
+            <img
+              src="src/assets/logos/devpost.png"
+              height="125px"
+              width="150px"
+              className="findme_img"
+            ></img>
+          </a>
+          <a href="https://www.kaggle.com/arjunc10/code" target="_blank">
+            <img
+              src="src/assets/logos/kaggle.png"
+              height="125px"
+              width="140px"
+              className="findme_img img1"
+            ></img>
+          </a>
+        </Card>
       </Background>
     </>
   );

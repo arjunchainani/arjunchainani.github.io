@@ -68,3 +68,48 @@ html {
   padding-right: 15px;
   font-size: 19px;
 }
+
+.findme_card {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+
+  margin-top: 30px;
+
+  display: flex;
+  justify-content: center;
+
+  width: 1450px;
+}
+
+.findme_text {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 35px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.findme_img {
+  margin-left: 40px;
+  margin-right: 40px;
+
+  padding: 20px;
+}
+
+.findme_img:hover {
+  cursor: pointer;
+  transition: 1s;
+  background: transparent;
+  /* border: 2px solid #a657d3; */
+  border-radius: 20px;
+  box-shadow: 0 0 50px 5px #3890ca;
+}
+
+.img1 {
+  /* padding-left: 20px; */
+  /* padding-right: 20px; */
+}
