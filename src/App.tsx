@@ -1,5 +1,4 @@
 import "./App.css";
-import Background from "./components/Background";
 import Card from "./components/Card";
 
 function App() {
@@ -12,7 +11,7 @@ function App() {
 
   return (
     <>
-      <Background styling="main_bg">
+      <div className="main_bg">
         <Card
           height="400px"
           width="400px"
@@ -66,7 +65,7 @@ function App() {
             ></img>
           </a>
         </Card>
-      </Background>
+      </div>
     </>
   );
 }
