@@ -109,7 +109,28 @@ html {
   box-shadow: 0 0 50px 5px #3890ca;
 }
 
-.img1 {
-  /* padding-left: 20px; */
-  /* padding-right: 20px; */
+.skills_title {
+  font-family: "Abel";
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.skills_container {
+  display: flex;
+  justify-content: center;
+}
+
+.skill_img {
+  justify-content: center;
+  height: 100px;
+  width: auto;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.skill_img:hover {
+  transform: translateY(-10px);
+  transition: 1s;
 }
