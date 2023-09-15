@@ -1,5 +1,4 @@
 import { ReactNode, useEffect, useState } from "react";
-import { render } from "react-dom";
 
 let stringIndex = -1;
 
