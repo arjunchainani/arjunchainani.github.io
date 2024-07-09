@@ -57,15 +57,15 @@ html {
   color: white;
   text-align: center;
   font-size: 60px;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Ubuntu', Verdana, Tahoma, sans-serif;
 }
 
 .desc_text {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Ubuntu Mono', 'Segoe UI', Tahoma, Verdana, sans-serif;
   color: white;
   font-weight: bold;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
   font-size: 19px;
 }
 
@@ -87,7 +87,7 @@ html {
   display: flex;
   align-items: center;
   color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Ubuntu Mono", 'Segoe UI', Tahoma, Verdana, sans-serif;
   padding-left: 35px;
   font-size: 30px;
   font-weight: bold;
@@ -110,7 +110,7 @@ html {
 }
 
 .skills_title {
-  font-family: "Abel";
+  font-family: "Ubuntu";
   font-size: 30px;
   color: white;
   text-align: center;

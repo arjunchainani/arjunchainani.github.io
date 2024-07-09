@@ -4,10 +4,10 @@ import Skills from "./components/Skills";
 
 function App() {
   const aboutMeInfo = [
-    "I am currently a rising senior at John P. Stevens High School in Edison, New Jersey.",
-    "I am fascinated by emerging technology, ranging from robotics and artificial intelligence to quantum computing.",
+    "I'm originally from NJ and am currently an incoming freshman at the University of Illinois Urbana-Champaign, majoring in Computer Engineering.",
+    "I am fascinated by emerging technology, and am experienced in robotics, machine learning, web development, and quantum computing.",
     "I love creating new things, and aspire to be part of the tech industry as a career.",
-    "Find out more by visiting some of my online profiles below, or feel free to contact me through email at arjun.k.chainani@gmail.com!",
+    "Find out more by visiting some of my online profiles below, or continue scrolling to see my skills, projects, and experience. For more info, feel free to contact me through email at arjun.k.chainani@gmail.com!",
   ];
 
   const skills = [
@@ -52,6 +52,14 @@ function App() {
           child_styling="findme_text"
         >
           Find me on:
+          <a href="https://www.linkedin.com/in/arjun-chainani/" target="_blank">
+            <img
+              src="src/assets/logos/linkedin.png"
+              height="150px"
+              width="150px"
+              className="findme_img img1"
+            ></img>
+          </a>
           <a href="https://github.com/arjunchainani" target="_blank">
             <img
               src="src/assets/logos/github.png"
