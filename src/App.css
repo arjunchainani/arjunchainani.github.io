@@ -110,7 +110,7 @@ html {
 }
 
 .skills_title {
-  font-family: "Ubuntu";
+  font-family: "Ubuntu", "Segue UI";
   font-size: 30px;
   color: white;
   text-align: center;
@@ -133,4 +133,37 @@ html {
 .skill_img:hover {
   transform: translateY(-10px);
   transition: 1s;
+}
+
+.projects_title {
+  font-family: 'Ubuntu', 'Segue UI';
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+.project {
+  border-radius: 20px;
+  background-color: rgb(70, 6, 122);
+  height: 50px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  opacity: 0.8;
+}
+
+.project:hover {
+  box-shadow: 0 0 5px 5px #a657d3;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.project_text {
+  font-family: 'Ubuntu Mono', 'Segue UI';
+  font-weight: bold;
+  color: white;
+  padding-left: 10px;
+  padding-top: 15px;
 }

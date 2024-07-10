@@ -1,6 +1,7 @@
 import "./App.css";
 import Card from "./components/Card";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 function App() {
   const aboutMeInfo = [
@@ -91,6 +92,10 @@ function App() {
       </div>
       <div>
         <Skills skills_list={skills}></Skills>
+      </div>
+      <div> 
+        <h2 className="projects_title">Projects</h2>
+        <Projects></Projects>
       </div>
     </>
   );
