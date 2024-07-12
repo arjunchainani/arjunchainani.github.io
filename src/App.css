@@ -181,3 +181,8 @@ html {
   font-family: "Ubuntu Mono", "Segue UI";
   font-size: 25px;
 }
+
+.git_link {
+  font-weight: bold;
+  color: white;
+}
