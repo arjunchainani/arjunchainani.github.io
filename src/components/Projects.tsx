@@ -29,7 +29,9 @@ const Projects = () => {
             }
             onClick={(event) => {
               event.preventDefault();
-              changeSelectedProjectIndex(index);
+              selectedProjectIndex == index
+                ? changeSelectedProjectIndex(-1)
+                : changeSelectedProjectIndex(index);
             }}
           >
             <h4 className="project_text">{project}</h4>
