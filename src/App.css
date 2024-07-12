@@ -146,7 +146,7 @@ html {
 .project {
   border-radius: 20px;
   background-color: rgb(70, 6, 122);
-  height: 50px;
+  height: 70px;
   margin-bottom: 15px;
   margin-left: 20px;
   margin-right: 20px;
@@ -163,7 +163,21 @@ html {
 .project_text {
   font-family: 'Ubuntu Mono', 'Segue UI';
   font-weight: bold;
+  font-size: 30px;
   color: white;
   padding-left: 10px;
   padding-top: 15px;
+}
+
+.selected {
+  box-shadow: 0 0 5px 5px #a657d3;
+  transition: 0.3s;
+  height: 400px;
+}
+
+.project_description {
+  color: white;
+  padding-left: 10px;
+  font-family: "Ubuntu Mono", "Segue UI";
+  font-size: 25px;
 }
