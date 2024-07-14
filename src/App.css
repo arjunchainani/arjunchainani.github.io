@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Ubuntu";
+  src: url('./fonts/Ubuntu-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Ubuntu Mono";
+  src: url('./fonts/UbuntuMono-Regular.ttf');
+}
+
 html {
   padding: none;
   margin: none;
@@ -172,7 +182,8 @@ html {
 .selected {
   box-shadow: 0 0 5px 5px #a657d3;
   transition: 0.3s;
-  height: 400px;
+  padding-bottom: 10px;
+  height: auto;
 }
 
 .project_description {
@@ -185,4 +196,11 @@ html {
 .git_link {
   font-weight: bold;
   color: white;
+}
+
+.author {
+  font-family: 'Ubuntu Mono', "Segue UI";
+  color: white;
+  text-align: center;
+  padding-bottom: 15px;
 }
