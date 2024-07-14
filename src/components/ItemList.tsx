@@ -4,9 +4,10 @@ interface Props {
   ItemNames: string[];
   ItemArray: string[][];
   type: string;
+  images: string[];
 }
 
-const ItemList = ({ ItemNames, ItemArray, type }: Props) => {
+const ItemList = ({ ItemNames, ItemArray, type, images }: Props) => {
   const [selectedItemIndex, changeSelectedItemIndex] = useState(-1);
 
   return (
@@ -44,6 +45,14 @@ const ItemList = ({ ItemNames, ItemArray, type }: Props) => {
                   <></>
                 )}
                 {ItemArray[selectedItemIndex][1]}
+                {/* {type == "projects" ? (
+                  <img
+                    className="project_images"
+                    src={images[selectedItemIndex]}
+                  ></img>
+                ) : (
+                  <></>
+                )} */}
               </p>
             ) : (
               <></>

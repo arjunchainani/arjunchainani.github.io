@@ -198,6 +198,10 @@ html {
   color: white;
 }
 
+.project_images {
+  display: flex;
+}
+
 .author {
   font-family: 'Ubuntu Mono', "Segue UI";
   color: white;

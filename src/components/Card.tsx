@@ -32,7 +32,6 @@ const Card = ({
   ];
 
   if (type == "text") {
-    console.log("in if statement");
     const innerText = text;
     if (innerText != undefined) {
       const textArr = innerText.split("");
