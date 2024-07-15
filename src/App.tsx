@@ -56,13 +56,13 @@ function App() {
     ],
   ];
 
-  const ProjectImages = [
-    "./../assets/projects/deepglobe.png",
-    "./../assets/projects/robotics.png",
-    "./../assets/projects/vidnote.png",
-    "./../assets/projects/airvision.png",
-    "./../assets/projects/quantum.png",
-  ];
+  // const ProjectImages = [
+  //   "./../assets/projects/deepglobe.png",
+  //   "./../assets/projects/robotics.png",
+  //   "./../assets/projects/vidnote.png",
+  //   "./../assets/projects/airvision.png",
+  //   "./../assets/projects/quantum.png",
+  // ];
 
   const ExperienceNames = [
     "Teaching Assistant - All Star Code",
@@ -169,7 +169,6 @@ function App() {
           ItemNames={ProjectNames}
           ItemArray={ProjectsArray}
           type="projects"
-          images={ProjectImages}
         ></ItemList>
       </div>
       <div>
@@ -178,7 +177,6 @@ function App() {
           ItemNames={ExperienceNames}
           ItemArray={ExperienceArray}
           type="experience"
-          images={[]}
         ></ItemList>
       </div>
       <div>
