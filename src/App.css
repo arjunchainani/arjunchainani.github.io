@@ -181,7 +181,7 @@ html {
 
 .selected {
   box-shadow: 0 0 5px 5px #a657d3;
-  transition: 0.3s;
+  transition: 0.7s;
   padding-bottom: 10px;
   height: auto;
 }

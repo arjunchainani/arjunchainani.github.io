@@ -52,7 +52,7 @@ function App() {
     ],
     [
       "https://github.com/arjunchainani/quantum_computing_simulations",
-      "Developing this simulation in Python using NumPy and Qiskit was part of my exploration in quantum computing algorithms, and I was able to implement the quantum teleportation algorithm, which uses the property of quantum entanglement to allow a certain number of bits of classical information to be communicated in fewer quantum bits. COmpleting this project allowed me to get a strong grasp on ideas such as quantum statevectors and the Bell state.",
+      "Developing this simulation in Python using NumPy and Qiskit was part of my exploration in quantum computing algorithms, and I was able to implement the quantum teleportation algorithm, which uses the property of quantum entanglement to allow a certain number of bits of classical information to be communicated in fewer quantum bits. Completing this project allowed me to get a strong grasp on ideas such as quantum statevectors and the Bell state.",
     ],
   ];
 
@@ -125,7 +125,7 @@ function App() {
           Find me on:
           <a href="https://www.linkedin.com/in/arjun-chainani/" target="_blank">
             <img
-              src="src/assets/logos/linkedin.png"
+              src="/public/assets/logos/linkedin.png"
               height="150px"
               width="150px"
               className="findme_img img1"
@@ -133,7 +133,7 @@ function App() {
           </a>
           <a href="https://github.com/arjunchainani" target="_blank">
             <img
-              src="src/assets/logos/github.png"
+              src="/public/assets/logos/github.png"
               height="150px"
               width="150px"
               className="findme_img img1"
@@ -144,7 +144,7 @@ function App() {
             target="_blank"
           >
             <img
-              src="src/assets/logos/devpost.png"
+              src="/public/assets/logos/devpost.png"
               height="125px"
               width="150px"
               className="findme_img"
@@ -152,7 +152,7 @@ function App() {
           </a>
           <a href="https://www.kaggle.com/arjunc10/code" target="_blank">
             <img
-              src="src/assets/logos/kaggle.png"
+              src="/public/assets/logos/kaggle.png"
               height="125px"
               width="140px"
               className="findme_img img1"
