@@ -33,9 +33,11 @@ const ItemList = ({ ItemNames, ItemArray, type, }: Props) => {
                     Github Link:
                     <a
                       href={ItemArray[selectedItemIndex][0]}
+                      target="_blank"
                       className="git_link"
                       onClick={(event) => {
                         event.preventDefault();
+                        window.open(ItemArray[selectedItemIndex][0])
                       }}
                     >
                       {ItemArray[selectedItemIndex][0]}

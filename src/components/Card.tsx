@@ -26,9 +26,9 @@ const Card = ({
   const [sentence, updateSentence] = useState("");
 
   const imageURLs = [
-    "/public/assets/main_screen_picture.jpg",
-    "/public/assets/edited_main_screen_picture2.jpg",
-    "/public/assets/main_screen_picture3.jpg",
+    "/assets/main_screen_picture.jpg",
+    "/assets/edited_main_screen_picture2.jpg",
+    "/assets/main_screen_picture3.jpg",
   ];
 
   if (type == "text") {

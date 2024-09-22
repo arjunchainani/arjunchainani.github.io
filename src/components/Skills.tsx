@@ -16,7 +16,7 @@ const Skills = ({ skills_list }: Props) => {
       <h2>Skilled in: </h2>
       <div className="skills_container">
         {skills_list.map((skill) => {
-          skillImgName = "/public/assets/skills/" + skill + ".png";
+          skillImgName = "/assets/skills/" + skill + ".png";
           return (
             <img
               src={skillImgName}
