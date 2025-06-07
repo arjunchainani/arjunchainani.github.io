@@ -26,9 +26,10 @@ const Card = ({
   const [sentence, updateSentence] = useState("");
 
   const imageURLs = [
-    "/assets/main_screen_picture.jpg",
-    "/assets/edited_main_screen_picture2.jpg",
-    "/assets/main_screen_picture3.jpg",
+    // "/assets/main_screen_picture.jpg",
+    // "/assets/edited_main_screen_picture2.jpg",
+    // "/assets/main_screen_picture3.jpg",
+    "/assets/new_main_pic.jpg"
   ];
 
   if (type == "text") {
@@ -55,19 +56,19 @@ const Card = ({
     }
   }
 
-  if (type == "image") {
-    useEffect(() => {
-      const imageSlideshow = setInterval(() => {
-        if (imageNum == 2) {
-          updateImageNum(0);
-        } else {
-          updateImageNum(imageNum + 1);
-        }
-      }, 2000);
+  // if (type == "image") {
+  //   useEffect(() => {
+  //     const imageSlideshow = setInterval(() => {
+  //       if (imageNum == 2) {
+  //         updateImageNum(0);
+  //       } else {
+  //         updateImageNum(imageNum + 1);
+  //       }
+  //     }, 2000);
 
-      return () => clearInterval(imageSlideshow);
-    }, [imageNum]);
-  }
+  //     return () => clearInterval(imageSlideshow);
+  //   }, [imageNum]);
+  // }
 
   const renderImage = () => {
     return (

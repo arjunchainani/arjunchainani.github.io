@@ -5,7 +5,7 @@ import ItemList from "./components/ItemList";
 
 function App() {
   const aboutMeInfo = [
-    "I'm originally from NJ and am currently a freshman at the University of Illinois Urbana-Champaign, majoring in Computer Engineering.",
+    "I'm a sophomore at the University of Illinois Urbana-Champaign, majoring in Computer Engineering.",
     "I am fascinated by emerging technology, and am experienced in robotics, machine learning, web development, and quantum computing.",
     "I love creating new things, and aspire to be part of the tech industry as a career.",
     "Find out more by visiting some of my online profiles below, or continue scrolling to see my skills, projects, and experience. For more info, feel free to contact me through email at arjun.k.chainani@gmail.com!",
@@ -122,42 +122,49 @@ function App() {
           styling="findme_card"
           child_styling="findme_text"
         >
-          Find me on:
-          <a href="https://www.linkedin.com/in/arjun-chainani/" target="_blank">
-            <img
+          {/* Find me on: &nbsp; */}
+          <a href="https://www.linkedin.com/in/arjun-chainani/" className="link" target="_blank" style={{ textDecoration: "none", color: "white" }}>
+            {/* <img
               src="/assets/logos/linkedin.png"
               height="150px"
               width="150px"
               className="findme_img img1"
-            ></img>
+            ></img> */}
+            Linkedin &nbsp;
           </a>
-          <a href="https://github.com/arjunchainani" target="_blank">
-            <img
+          &#x2022;
+          <a href="https://github.com/arjunchainani" className="link" target="_blank" style={{ textDecoration: "none", color: "white" }}>
+            {/* <img
               src="/assets/logos/github.png"
               height="150px"
               width="150px"
               className="findme_img img1"
-            ></img>
+            ></img> */}
+            &nbsp; GitHub &nbsp;
           </a>
+          &#x2022;
           <a
             href="https://devpost.com/cyberzombiequest?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav"
             target="_blank"
+            className="link"
+            style={{ textDecoration: "none" , color: "white"}}
           >
-            <img
+            {/* <img
               src="/assets/logos/devpost.png"
               height="125px"
               width="150px"
               className="findme_img"
-            ></img>
+            ></img> */}
+            &nbsp; Resume
           </a>
-          <a href="https://www.kaggle.com/arjunc10/code" target="_blank">
+          {/* <a href="https://www.kaggle.com/arjunc10/code" target="_blank" style={{ textDecoration: "none" }}>
             <img
               src="/assets/logos/kaggle.png"
               height="125px"
               width="140px"
               className="findme_img img1"
             ></img>
-          </a>
+          </a> */}
         </Card>
       </div>
       <div>

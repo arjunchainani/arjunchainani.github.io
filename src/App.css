@@ -29,12 +29,13 @@ html {
 }
 
 .card {
-  border-radius: 20px;
-  background-color: rgb(70, 6, 122);
-
   opacity: 0.8;
+}
 
-  box-shadow: 0 0 50px 15px #a657d3;
+.link:hover {
+  opacity: 50%;
+  transition: 0.5s;
+  text-decoration: underline;
 }
 
 .img_card {
@@ -42,6 +43,9 @@ html {
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
+  border-radius: 50%;
+  box-shadow: 0 0 0 0;
+  visibility: hidden;
 }
 
 .main_desc {
@@ -55,12 +59,17 @@ html {
 }
 
 .arjun_image {
-  height: 300px;
-  width: 325px;
+  /* height: 300px; */
+  /* width: 325px; */
+  height: 100%;
+  width: 100%;
 
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-top: 45px;
+  margin-left: 35px;
+  /* padding-left: 35px; */
+  /* padding-right: 35px; */
+  /* padding-top: 45px; */
+  border-radius: 50%;
+  visibility: visible;;
 }
 
 .hi_title {
