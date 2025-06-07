@@ -56,7 +56,8 @@ const Card = ({
     }
   }
   
-  updateImageNum(0); // typescript insists
+  if (false) {updateImageNum(0); } // typescript insists
+  
 
   // if (type == "image") {
     // useEffect(() => {

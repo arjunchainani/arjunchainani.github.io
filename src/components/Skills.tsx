@@ -19,6 +19,7 @@ const Skills = ({ skills_list }: Props) => {
           skillImgName = "/assets/skills/" + skill + ".png";
           return (
             <img
+              key={skill}
               src={skillImgName}
               className="skill_img"
               onMouseOver={() => updateHighlightedSkill(skill)}

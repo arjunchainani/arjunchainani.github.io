@@ -15,6 +15,7 @@ const ItemList = ({ ItemNames, ItemArray, type, }: Props) => {
       {ItemNames.map((item, index) => {
         return (
           <div
+            key={index}
             className={
               selectedItemIndex == index ? "project selected" : "project"
             }
