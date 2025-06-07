@@ -55,12 +55,14 @@ const Card = ({
       });
     }
   }
+  
+  updateImageNum(0); // typescript insists
 
   // if (type == "image") {
-  //   useEffect(() => {
-  //     const imageSlideshow = setInterval(() => {
-  //       if (imageNum == 2) {
-  //         updateImageNum(0);
+    // useEffect(() => {
+      // const imageSlideshow = setInterval(() => {
+        // if (imageNum == 2) {
+          // updateImageNum(0);
   //       } else {
   //         updateImageNum(imageNum + 1);
   //       }
