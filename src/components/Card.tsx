@@ -49,7 +49,7 @@ const Card = ({
             stringIndex = 0;
             stillTyping = false;
           }
-        }, 100);
+        }, 50);
 
         return () => clearInterval(buildSentence);
       });

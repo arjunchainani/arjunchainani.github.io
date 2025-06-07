@@ -5,10 +5,10 @@ import ItemList from "./components/ItemList";
 
 function App() {
   const aboutMeInfo = [
-    "I'm a sophomore at the University of Illinois Urbana-Champaign, majoring in Computer Engineering.",
-    "I am fascinated by emerging technology, and am experienced in robotics, machine learning, web development, and quantum computing.",
-    "I love creating new things, and aspire to be part of the tech industry as a career.",
-    "Find out more by visiting some of my online profiles below, or continue scrolling to see my skills, projects, and experience. For more info, feel free to contact me through email at arjun.k.chainani@gmail.com!",
+    "I'm an undergraduate studying Computer Engineering at the University of Illinois Urbana-Champaign.",
+    "I'm experienced in and deeply passionate about machine learning, space/astronomy, and robotics, and I plan to continue diving into the applications of intelligent systems in exploring our cosmos.",
+    "I'm currently working as a computational astrophysics research intern in multiple research groups at Illinois' National Center for Supercomputing Applications (NCSA).",
+    "For more information on my skills, projects, and experience, check out my online profiles/resume attached below, or contact me through email at arjun.k.chainani@gmail.com!",
   ];
 
   const skills = [
@@ -171,19 +171,19 @@ function App() {
         <Skills skills_list={skills}></Skills>
       </div>
       <div>
-        <h2 className="projects_title">Projects</h2>
-        <ItemList
-          ItemNames={ProjectNames}
-          ItemArray={ProjectsArray}
-          type="projects"
-        ></ItemList>
-      </div>
-      <div>
         <h2 className="projects_title">Experience</h2>
         <ItemList
           ItemNames={ExperienceNames}
           ItemArray={ExperienceArray}
           type="experience"
+        ></ItemList>
+      </div>
+      <div>
+        <h2 className="projects_title">Projects</h2>
+        <ItemList
+          ItemNames={ProjectNames}
+          ItemArray={ProjectsArray}
+          type="projects"
         ></ItemList>
       </div>
       <div>
