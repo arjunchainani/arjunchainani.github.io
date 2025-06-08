@@ -145,7 +145,7 @@ function App() {
           </a>
           &#x2022;
           <a
-            href="https://devpost.com/cyberzombiequest?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav"
+            href="mailto:arjun15@illinois.edu"
             target="_blank"
             className="link"
             style={{ textDecoration: "none" , color: "white"}}
@@ -156,7 +156,7 @@ function App() {
               width="150px"
               className="findme_img"
             ></img> */}
-            &nbsp; Resume
+            &nbsp; Email 
           </a>
           {/* <a href="https://www.kaggle.com/arjunc10/code" target="_blank" style={{ textDecoration: "none" }}>
             <img
