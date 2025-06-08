@@ -154,6 +154,20 @@ html {
   transition: 1s;
 }
 
+.vertical-timeline-element-title {
+  font-family: "Ubuntu Mono", "Ubuntu", "Segue UI";
+  font-size: 30px;
+}
+
+.vertical-timeline-element-subtitle {
+  font-family: "Ubuntu Mono", "Ubuntu", "Segue UI";
+}
+
+.vertical-timeline-element-description {
+  font-family: "Ubuntu";
+  font-size: 15px;
+}
+
 .projects_title {
   font-family: 'Ubuntu', 'Segue UI';
   font-weight: bold;

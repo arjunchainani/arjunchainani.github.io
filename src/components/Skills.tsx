@@ -8,7 +8,7 @@ interface Props {
 const Skills = ({ skills_list }: Props) => {
   let skillImgName;
   const [highlightedSkill, updateHighlightedSkill] = useState(
-    "Hover over a skill to learn more!"
+    "\n\n\n"
   );
 
   return (
@@ -24,7 +24,7 @@ const Skills = ({ skills_list }: Props) => {
               className="skill_img"
               onMouseOver={() => updateHighlightedSkill(skill)}
               onMouseOut={() =>
-                updateHighlightedSkill("Hover over a skill to learn more!")
+                updateHighlightedSkill("\n")
               }
             ></img>
           );

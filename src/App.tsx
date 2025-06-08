@@ -2,6 +2,7 @@ import "./App.css";
 import Card from "./components/Card";
 import Skills from "./components/Skills";
 import ItemList from "./components/ItemList";
+import Experience from "./components/Experience";
 
 function App() {
   const aboutMeInfo = [
@@ -172,20 +173,21 @@ function App() {
       </div>
       <div>
         <h2 className="projects_title">Experience</h2>
-        <ItemList
+        {/* <ItemList
           ItemNames={ExperienceNames}
           ItemArray={ExperienceArray}
           type="experience"
-        ></ItemList>
+        ></ItemList> */}
+        <Experience></Experience>
       </div>
-      <div>
+      {/* <div>
         <h2 className="projects_title">Projects</h2>
         <ItemList
           ItemNames={ProjectNames}
           ItemArray={ProjectsArray}
           type="projects"
         ></ItemList>
-      </div>
+      </div> */}
       <div>
         <h4 className="author">
           Made by Arjun Chainani. Built with React.js, TypeScript, and Vite.
