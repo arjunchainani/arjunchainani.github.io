@@ -156,7 +156,7 @@ function App() {
               width="150px"
               className="findme_img"
             ></img> */}
-            &nbsp; Email 
+            &nbsp; Email
           </a>
           {/* <a href="https://www.kaggle.com/arjunc10/code" target="_blank" style={{ textDecoration: "none" }}>
             <img
