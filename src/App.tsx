@@ -124,6 +124,15 @@ function App() {
           child_styling="findme_text"
         >
           {/* Find me on: &nbsp; */}
+          <a
+            href="mailto:arjun15@illinois.edu"
+            target="_blank"
+            className="link"
+            style={{ textDecoration: "none" , color: "white"}}
+          >
+            Email &nbsp;
+          </a>
+          &#x2022;
           <a href="https://www.linkedin.com/in/arjun-chainani/" className="link" target="_blank" style={{ textDecoration: "none", color: "white" }}>
             {/* <img
               src="/assets/logos/linkedin.png"
@@ -131,7 +140,7 @@ function App() {
               width="150px"
               className="findme_img img1"
             ></img> */}
-            Linkedin &nbsp;
+            &nbsp; Linkedin &nbsp;
           </a>
           &#x2022;
           <a href="https://github.com/arjunchainani" className="link" target="_blank" style={{ textDecoration: "none", color: "white" }}>
@@ -141,22 +150,7 @@ function App() {
               width="150px"
               className="findme_img img1"
             ></img> */}
-            &nbsp; GitHub &nbsp;
-          </a>
-          &#x2022;
-          <a
-            href="mailto:arjun15@illinois.edu"
-            target="_blank"
-            className="link"
-            style={{ textDecoration: "none" , color: "white"}}
-          >
-            {/* <img
-              src="/assets/logos/devpost.png"
-              height="125px"
-              width="150px"
-              className="findme_img"
-            ></img> */}
-            &nbsp; Email
+            &nbsp; GitHub
           </a>
           {/* <a href="https://www.kaggle.com/arjunc10/code" target="_blank" style={{ textDecoration: "none" }}>
             <img
