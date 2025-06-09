@@ -184,7 +184,7 @@ function App() {
       </div> */}
       <div>
         <h4 className="author">
-          Made by Arjun Chainani. Built with React.js, TypeScript, and Vite.
+          Made by Arjun Chainani. Built with React.js, Vite, and TypeScript.
         </h4>
       </div>
     </>
