@@ -1,7 +1,7 @@
 import "./App.css";
 import Card from "./components/Card";
 import Skills from "./components/Skills";
-// import ItemList from "./components/ItemList";
+import NewsList from "./components/NewsList";
 import Experience from "./components/Experience";
 
 function App() {
@@ -162,6 +162,11 @@ function App() {
           </a> */}
         </Card>
       </div>
+      {/* Add news section here!! */}
+      <div>
+        <h2 className="projects_title">News</h2>
+      </div>
+      <NewsList></NewsList>
       <div>
         <Skills skills_list={skills}></Skills>
       </div>
