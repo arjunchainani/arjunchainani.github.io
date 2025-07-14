@@ -38,6 +38,7 @@ const News = [
 const VISIBLE_COUNT = 3;
 const BOX_WIDTH = 375 + 30; // width + gap (px)
 
+
 const NewsList = () => {
     const [startIndex, setStartIndex] = useState(0);
     const endIndex = startIndex + VISIBLE_COUNT;
