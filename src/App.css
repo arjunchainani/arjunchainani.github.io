@@ -12,6 +12,16 @@
   src: url('./fonts/UbuntuMono-Regular.ttf');
 }
 
+@font-face {
+  font-family: "Inter";
+  src: url('./fonts/Inter-VariableFont_opsz,wght.ttf');
+}
+
+@font-face {
+  font-family: "Inter Tight";
+  src: url('./fonts/InterTight-VariableFont_wght.ttf');
+}
+
 html {
   padding: none;
   margin: none;
@@ -80,11 +90,11 @@ html {
   color: white;
   text-align: center;
   font-size: 60px;
-  font-family: 'Ubuntu', Verdana, Tahoma, sans-serif;
+  font-family: 'Inter', Verdana, Tahoma, sans-serif;
 }
 
 .desc_text {
-  font-family: 'Ubuntu Mono', 'Segoe UI', Tahoma, Verdana, sans-serif;
+  font-family: 'Inter Tight', 'Segoe UI', Tahoma, Verdana, sans-serif;
   color: white;
   font-weight: bold;
   padding-left: 50px;
@@ -110,7 +120,7 @@ html {
   display: flex;
   align-items: center;
   color: white;
-  font-family: "Ubuntu Mono", 'Segoe UI', Tahoma, Verdana, sans-serif;
+  font-family: "Inter Tight", 'Segoe UI', Tahoma, Verdana, sans-serif;
   padding-left: 35px;
   font-size: 30px;
   font-weight: bold;
@@ -133,7 +143,7 @@ html {
 }
 
 .skills_title {
-  font-family: "Ubuntu Mono", "Segue UI";
+  font-family: "Inter", "Segue UI";
   font-size: 30px;
   color: white;
   text-align: center;
@@ -159,26 +169,26 @@ html {
 }
 
 .vertical-timeline-element-title {
-  font-family: "Ubuntu Mono", "Ubuntu", "Segue UI";
+  font-family: "Inter", "Ubuntu", "Segue UI";
   font-size: 30px;
 }
 
 .vertical-timeline-element-subtitle {
-  font-family: "Ubuntu Mono", "Ubuntu", "Segue UI";
+  font-family: "Inter Tight", "Ubuntu", "Segue UI";
 }
 
 .vertical-timeline-element-description {
-  font-family: "Ubuntu";
+  font-family: "Inter Tight";
   font-size: 15px;
 }
 
 .news_box {
   color: white;
-  font-family: "Ubuntu Mono";
+  font-family: "Inter Tight";
   border: #a657d3 2px solid;
   border-radius: 20px;
   width: 375px;
-  height: 600px;
+  height: 650px;
 }
 
 .news_headline {
@@ -199,7 +209,7 @@ html {
 }
 
 .news_description {
-  font-family: "Ubuntu";
+  font-family: "Inter Tight";
   margin-left: 10px;
   color: white;
 }
@@ -209,7 +219,7 @@ html {
 }
 
 .projects_title {
-  font-family: 'Ubuntu', 'Segue UI';
+  font-family: 'Inter', 'Segue UI';
   font-weight: bold;
   font-size: 40px;
   color: white;
@@ -234,7 +244,7 @@ html {
 }
 
 .project_text {
-  font-family: 'Ubuntu Mono', 'Segue UI';
+  font-family: 'Inter Tight', 'Segue UI';
   font-weight: bold;
   font-size: 30px;
   color: white;
@@ -252,7 +262,7 @@ html {
 .project_description {
   color: white;
   padding-left: 10px;
-  font-family: "Ubuntu Mono", "Segue UI";
+  font-family: "Inter Tight", "Segue UI";
   font-size: 25px;
 }
 
@@ -266,7 +276,7 @@ html {
 }
 
 .author {
-  font-family: 'Ubuntu Mono', "Segue UI";
+  font-family: 'Inter Tight', "Segue UI";
   color: white;
   text-align: center;
   padding-bottom: 15px;
