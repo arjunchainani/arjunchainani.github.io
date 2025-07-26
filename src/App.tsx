@@ -114,7 +114,7 @@ function App() {
           text={aboutMeInfo.join(" ")}
           child_styling="hi_title"
         >
-          Hi, I'm Arjun Chainani.
+          Hi, I'm Arjun Chainani.👋
         </Card>
         <Card
           height="auto"
