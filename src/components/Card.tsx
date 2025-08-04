@@ -29,7 +29,8 @@ const Card = ({
     // "/assets/main_screen_picture.jpg",
     // "/assets/edited_main_screen_picture2.jpg",
     // "/assets/main_screen_picture3.jpg",
-    "/assets/new_main_pic.jpg"
+    "/assets/pfp.jpg",
+    // "/assets/professional_headshot.jpg"
   ];
 
   if (type == "text") {
