@@ -124,34 +124,44 @@ function App() {
           child_styling="findme_text"
         >
           {/* Find me on: &nbsp; */}
+          <p>
           <a
             href="mailto:arjun15@illinois.edu"
             target="_blank"
             className="link"
-            style={{ textDecoration: "none" , color: "white"}}
+            style={{ textDecoration: "underline" , color: "white"}}
           >
-            Email &nbsp;
+            Email
           </a>
+          &nbsp;
+          </p>
           &#x2022;
-          <a href="https://www.linkedin.com/in/arjun-chainani/" className="link" target="_blank" style={{ textDecoration: "none", color: "white" }}>
+          <p>
+          &nbsp; 
+          <a href="https://www.linkedin.com/in/arjun-chainani/" className="link" target="_blank" style={{ textDecoration: "underline", color: "white" }}>
             {/* <img
               src="/assets/logos/linkedin.png"
               height="150px"
               width="150px"
               className="findme_img img1"
             ></img> */}
-            &nbsp; Linkedin &nbsp;
+            Linkedin        
           </a>
+          &nbsp;
+          </p>
           &#x2022;
-          <a href="https://github.com/arjunchainani" className="link" target="_blank" style={{ textDecoration: "none", color: "white" }}>
+          <p> 
+          &nbsp; 
+          <a href="https://github.com/arjunchainani" className="link" target="_blank" style={{ textDecoration: "underline", color: "white" }}>
             {/* <img
               src="/assets/logos/github.png"
               height="150px"
               width="150px"
               className="findme_img img1"
             ></img> */}
-            &nbsp; GitHub
+            GitHub
           </a>
+          </p>
           {/* <a href="https://www.kaggle.com/arjunc10/code" target="_blank" style={{ textDecoration: "none" }}>
             <img
               src="/assets/logos/kaggle.png"
@@ -162,35 +172,37 @@ function App() {
           </a> */}
         </Card>
       </div>
-      {/* Add news section here!! */}
-      <div>
-        <h2 className="projects_title">News</h2>
-      </div>
-      <NewsList></NewsList>
-      <div>
-        <Skills skills_list={skills}></Skills>
-      </div>
-      <div>
-        <h2 className="projects_title">Experience</h2>
-        {/* <ItemList
-          ItemNames={ExperienceNames}
-          ItemArray={ExperienceArray}
-          type="experience"
-        ></ItemList> */}
-        <Experience></Experience>
-      </div>
-      {/* <div>
-        <h2 className="projects_title">Projects</h2>
-        <ItemList
-          ItemNames={ProjectNames}
-          ItemArray={ProjectsArray}
-          type="projects"
-        ></ItemList>
-      </div> */}
-      <div>
-        <h4 className="author">
-          Made by Arjun Chainani. Built with React.js, Vite, and TS.
-        </h4>
+      <div className="content_sections">
+        {/* Add news section here!! */}
+        <div>
+          <h2 className="projects_title">News</h2>
+        </div>
+        <NewsList></NewsList>
+        <div>
+          <Skills skills_list={skills}></Skills>
+        </div>
+        <div>
+          <h2 className="projects_title">Experience</h2>
+          {/* <ItemList
+            ItemNames={ExperienceNames}
+            ItemArray={ExperienceArray}
+            type="experience"
+          ></ItemList> */}
+          <Experience></Experience>
+        </div>
+        {/* <div>
+          <h2 className="projects_title">Projects</h2>
+          <ItemList
+            ItemNames={ProjectNames}
+            ItemArray={ProjectsArray}
+            type="projects"
+          ></ItemList>
+        </div> */}
+        <div>
+          <h4 className="author">
+            Made by Arjun Chainani. Built with React.js, Vite, and TS.
+          </h4>
+        </div>
       </div>
     </>
   );

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const News = [
     {
@@ -35,13 +35,32 @@ const News = [
     },
 ];
 
-const VISIBLE_COUNT = 3;
-const BOX_WIDTH = 375 + 30; // width + gap (px)
+const getVisibleCount = (width: number) => {
+  if (width < 768) return 1; // mobile
+  if (width < 1024) return 2; // tablet
+  return 3; // desktop
+};
+
+const getBoxWidth = (width: number) => {
+  if (width < 768) return 300 + 20; // mobile: smaller boxes + gap
+  if (width < 1024) return 350 + 25; // tablet: medium boxes + gap
+  return 375 + 30; // desktop: full size + gap
+};
 
 
 const NewsList = () => {
     const [startIndex, setStartIndex] = useState(0);
-    const endIndex = startIndex + VISIBLE_COUNT;
+    const [windowWidth, setWindowWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : 1024);
+    
+    useEffect(() => {
+        const handleResize = () => setWindowWidth(window.innerWidth);
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+    
+    const visibleCount = getVisibleCount(windowWidth);
+    const boxWidth = getBoxWidth(windowWidth);
+    const endIndex = startIndex + visibleCount;
     const canScrollLeft = startIndex > 0;
     const canScrollRight = endIndex < News.length;
 
@@ -65,9 +84,9 @@ const NewsList = () => {
                 <div
                     className="news_panel"
                     style={{
-                        transform: `translateX(-${startIndex * BOX_WIDTH}px)`,
+                        transform: `translateX(-${startIndex * boxWidth}px)`,
                         transition: 'transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)',
-                        width: `${News.length * BOX_WIDTH}px`,
+                        width: `${News.length * boxWidth}px`,
                     }}
                 >
                     {News.map((item, index) => {
