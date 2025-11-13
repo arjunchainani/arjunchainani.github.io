@@ -13,17 +13,17 @@ function App() {
   ];
 
   const skills = [
-    "C++",
-    "Java",
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React",
+    "C/C++",
     "Python",
-    "Numpy",
     "PyTorch",
-    "Tensorflow",
-    "Qiskit",
+    "ROS2 (Robot Operating System)",
+    // "HTML",
+    // "CSS",
+    "JavaScript/TypeScript",
+    "React",
+    "Java",
+    "Linux",
+    "AWS (Amazon Web Services)"
   ];
 
   // const ProjectNames = [
