@@ -410,7 +410,24 @@ body {
 
 .vertical-timeline-element-description {
   font-family: "Inter Tight";
+}
+
+.vertical-timeline-element-content p {
   font-size: 15px;
+  margin-bottom: 10px !important;
+}
+
+.experience_skill_bubble {
+  background-color: #211333;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 15px;
+  font-family: "Inter";
 }
 
 .news_box {
@@ -715,3 +732,4 @@ body {
     width: calc(375px * 3 + 30px * 2); /* 3 boxes + 2 gaps on desktop */
   }
 }
+
