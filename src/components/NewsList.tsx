@@ -1,13 +1,13 @@
 import { useState, useEffect } from "react";
 
 const News = [
-    {
-        headline: "Test",
-        date: "July 10, 2006",
-        description: "The goat comes to life!",
-        image_path: "/assets/logos/github.png",
-        link: 'https://www.google.com/',
-    },
+    // {
+    //     headline: "Test",
+    //     date: "July 10, 2006",
+    //     description: "The goat comes to life!",
+    //     image_path: "/assets/logos/github.png",
+    //     link: 'https://www.google.com/',
+    // },
     {
         headline: "Awarded 2025 Jerry Fiddler Innovation Undergraduate Student Fellowship",
         date: "Oct 31, 2025",
