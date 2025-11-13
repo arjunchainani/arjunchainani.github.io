@@ -19,7 +19,7 @@ const ExperienceTimeline = [
         location: "Champaign, IL",
         description: "Architecting physics-informed neural networks and AI agents for gravitational wave detection and characterization.",
         skills: ['PyTorch Lightning', 'HPC Clusters/SLURM', 'Attention Mechanisms'],
-        date: "May 2025 - Present",
+        date: "May 2025 - Aug 2025",
     },
     {
         id: 2,
