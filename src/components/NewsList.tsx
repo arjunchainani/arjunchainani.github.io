@@ -9,17 +9,18 @@ const News = [
         link: 'https://www.google.com/',
     },
     {
+        headline: "Received Fiddler Innovation Undergraduate Student Fellowship Award",
+        date: "Oct 31, 2025",
+        description: "I won the $1,500 Jerry Fiddler Innovation Undergraduate Fellowship for outstanding interdisciplinary research contributions! My award selection was focused around my work on LSST anomaly detection.",
+        image_path: "/assets/fiddler_award_reception.jpg",
+        link: 'https://ncsa.illinois.edu/2025/11/03/ncsa-awards-38-students-fiddler-innovation-fellowships/'
+    },
+    {
         headline: "Named Outstanding NCSA SPIN Intern 2024-25 (Outstanding Student Leadership)",
         date: "May 29, 2025",
         description: "I was interviewed for and featured by the NCSA's end-of-year article on the Students Pushing Innovation (SPIN) program. This article spotlights my involvement as co-organizer of the 3rd Annual NCSA Students Research Conference in April 2025, as well as my research throughout the school year on transient anomaly detection for the LSST!",
         image_path: "/assets/Arjun-Shaan-Bill-Gropp.jpeg",
         link: 'https://www.ncsa.illinois.edu/spin-closes-out-a-year-of-accomplishments-and-recognizes-the-outstanding-work-of-the-programs-interns-and-mentors/',
-    },
-    {
-        headline: "Coming Soon",
-        date: "...",
-        description: "Coming Soon!",
-        image_path: "/assets/comingsoon.jpg",
     },
     {
         headline: "Coming Soon",
