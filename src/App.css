@@ -73,25 +73,39 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   padding: 20px;
   gap: 30px;
   overflow-x: hidden;
 }
 
+/* Main content wrapper for mobile/tablet */
+.main_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
 /* Desktop layout */
 @media (min-width: 1024px) {
   .main_bg {
-    display: grid;
-    grid-template-columns: 200px 400px 125px 1000px 300px;
-    grid-template-rows: 0.7fr 450px 1.3fr;
-    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 0;
     gap: 0;
-    justify-content: unset;
+  }
+  
+  .main_content {
+    display: grid;
+    grid-template-columns: 400px 125px 1000px;
+    grid-template-rows: auto;
+    gap: 0;
+    justify-content: center;
     align-items: center;
-    min-height: 100vh;
     width: 100vw;
-    position: relative;
+    align-self: center;
   }
 }
 
@@ -125,10 +139,8 @@ body {
 
 @media (min-width: 1024px) {
   .img_card {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-column: 1;
+    grid-row: 1;
     visibility: hidden;
     width: 400px;
     height: 400px;
@@ -159,20 +171,18 @@ body {
 
 @media (min-width: 1024px) {
   .main_desc {
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 2;
-    grid-row-end: 3;
+    grid-column: 3;
+    grid-row: 1;
     margin-left: 0;
-    height: 400px;
+    height: auto;
     order: unset;
     text-align: left;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     max-width: 800px;
-    padding: 0;
+    padding-top: 50px;
   }
 }
 
@@ -250,31 +260,12 @@ body {
 }
 
 .findme_card {
-  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   width: 100vw;
-  /* max-width: 600px; */
-  order: 3;
-}
-
-@media (min-width: 1024px) {
-  .findme_card {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 75vh;
-    width: 100vw;
-    margin-left: calc(-50vw + 50%);
-    max-width: none;
-    order: unset;
-    align-self: start;
-    justify-content: center;
-    display: flex;
-    padding: 20px 0;
-  }
+  padding: 20px 0;
+  margin: 0;
 }
 
 .findme_text {
@@ -282,10 +273,11 @@ body {
   align-items: center;
   color: white;
   font-family: "Inter Tight", 'Segoe UI', Tahoma, Verdana, sans-serif;
-  padding: 0 10px;
+  padding: 0;
+  margin: 0 auto;
   font-size: 18px;
   font-weight: bold;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   gap: 5px;
   width: 100%;
@@ -295,19 +287,12 @@ body {
 @media (min-width: 768px) {
   .findme_text {
     font-size: 24px;
-    gap: 10px;
   }
 }
 
 @media (min-width: 1024px) {
   .findme_text {
-    padding: 0;
     font-size: 30px;
-    flex-wrap: nowrap;
-    justify-content: center;
-    width: 100%;
-    text-align: center;
-    margin: 0 auto;
   }
 }
 

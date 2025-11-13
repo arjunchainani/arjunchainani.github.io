@@ -9,7 +9,7 @@ const News = [
         link: 'https://www.google.com/',
     },
     {
-        headline: "Received Fiddler Innovation Undergraduate Student Fellowship Award",
+        headline: "Awarded 2025 Jerry Fiddler Innovation Undergraduate Student Fellowship",
         date: "Oct 31, 2025",
         description: "I won the $1,500 Jerry Fiddler Innovation Undergraduate Fellowship for outstanding interdisciplinary research contributions! My award selection was focused around my work on LSST anomaly detection.",
         image_path: "/assets/fiddler_award_reception.jpg",

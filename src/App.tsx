@@ -99,23 +99,25 @@ function App() {
   return (
     <>
       <div className="main_bg">
-        <Card
-          height="400px"
-          width="400px"
-          type="image"
-          styling="img_card"
-          child_styling=""
-        ></Card>
-        <Card
-          height="400px"
-          width="1000px"
-          type="text"
-          styling="main_desc"
-          text={aboutMeInfo.join(" ")}
-          child_styling="hi_title"
-        >
-          Hi, I'm Arjun Chainani.👋
-        </Card>
+        <div className="main_content">
+          <Card
+            height="400px"
+            width="400px"
+            type="image"
+            styling="img_card"
+            child_styling=""
+          ></Card>
+          <Card
+            height="400px"
+            width="1000px"
+            type="text"
+            styling="main_desc"
+            text={aboutMeInfo.join(" ")}
+            child_styling="hi_title"
+          >
+            Hi, I'm Arjun Chainani.👋
+          </Card>
+        </div>
         <Card
           height="auto"
           width="1450px"
@@ -123,8 +125,6 @@ function App() {
           styling="findme_card"
           child_styling="findme_text"
         >
-          {/* Find me on: &nbsp; */}
-          <p>
           <a
             href="mailto:arjun15@illinois.edu"
             target="_blank"
@@ -133,35 +133,14 @@ function App() {
           >
             Email
           </a>
-          &nbsp;
-          </p>
-          &#x2022;
-          <p>
-          &nbsp; 
+          <span>&nbsp;&#x2022;&nbsp;</span>
           <a href="https://www.linkedin.com/in/arjun-chainani/" className="link" target="_blank" style={{ textDecoration: "underline", color: "white" }}>
-            {/* <img
-              src="/assets/logos/linkedin.png"
-              height="150px"
-              width="150px"
-              className="findme_img img1"
-            ></img> */}
             Linkedin        
           </a>
-          &nbsp;
-          </p>
-          &#x2022;
-          <p> 
-          &nbsp; 
+          <span>&nbsp;&#x2022;&nbsp;</span>
           <a href="https://github.com/arjunchainani" className="link" target="_blank" style={{ textDecoration: "underline", color: "white" }}>
-            {/* <img
-              src="/assets/logos/github.png"
-              height="150px"
-              width="150px"
-              className="findme_img img1"
-            ></img> */}
             GitHub
           </a>
-          </p>
           {/* <a href="https://www.kaggle.com/arjunc10/code" target="_blank" style={{ textDecoration: "none" }}>
             <img
               src="/assets/logos/kaggle.png"
