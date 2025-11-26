@@ -13,7 +13,7 @@ const News = [
         date: "Oct 31, 2025",
         description: "I won the $1,500 Jerry Fiddler Innovation Undergraduate Fellowship for outstanding interdisciplinary research contributions! My award selection was focused around my work on LSST anomaly detection.",
         image_path: "/assets/fiddler_award_reception.jpg",
-        link: 'https://ncsa.illinois.edu/2025/11/03/ncsa-awards-38-students-fiddler-innovation-fellowships/'
+        link: 'https://astro.illinois.edu/news/2025-11-25/illinois-astronomy-students-awarded-fiddler-fellowships-cutting-edge-research'
     },
     {
         headline: "Named Outstanding NCSA SPIN Intern 2024-25 (Outstanding Student Leadership)",
