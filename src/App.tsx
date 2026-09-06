@@ -7,9 +7,9 @@ import Experience from "./components/Experience";
 function App() {
   const aboutMeInfo = [
     "I'm an undergraduate studying Computer Engineering at the University of Illinois Urbana-Champaign.",
-    "I'm experienced in and deeply passionate about machine learning, space/astronomy, and robotics, and I plan to continue diving into the applications of intelligent systems in exploring our cosmos.",
-    "I'm currently working as a computational astrophysics research intern in multiple research groups at Illinois' National Center for Supercomputing Applications (NCSA).",
-    "For more information on my skills, projects, and experience, check out my online profiles/resume attached below, or contact me through email at arjun.k.chainani@gmail.com!",
+    "I'm experienced in and deeply passionate about robotics, machine learning, and space, and I aspire to spend my career engineering intelligent systems to enable human space exploration.",
+    "I'm currently interning at SpaceX, where I'm working on launch hardware for Starship, and have previously interned on Rivian's self-driving team and multiple astrophysics research groups at Illinois' National Center for Supercomputing Applications (NCSA).",
+    "For more information on my skills, projects, and experience, check out my online profiles/resume below, or contact me through email at arjun.k.chainani@gmail.com!",
   ];
 
   const skills = [
@@ -126,7 +126,7 @@ function App() {
           child_styling="findme_text"
         >
           <a
-            href="mailto:arjun15@illinois.edu"
+            href="mailto:arjun.k.chainani@gmail.com"
             target="_blank"
             className="link"
             style={{ textDecoration: "underline" , color: "white"}}

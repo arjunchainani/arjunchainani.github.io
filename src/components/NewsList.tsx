@@ -9,6 +9,19 @@ const News = [
     //     link: 'https://www.google.com/',
     // },
     {
+        headline: "Completed internship at Rivian!",
+        date: "Aug 14, 2026",
+        description: "I interned at Rivian during Summer 2026 on the Autonomy Middleware team in the Bay Area! I had a great time working on ML inference software for orchestrating multi-model perception pipeline on vehicle GPUs, accelerating the development of Rivian's self-driving platform!",
+        image_path: "/assets/rivian.jpg",
+    },
+    {
+        headline: "Competed at 2026 NASA Lunabotics Robotic Mining Challenge",
+        date: "May 22, 2026",
+        description: "As President of UIUC's Illinois Robotics in Space RSO, I led the 40-member team to design and build an autonomous lunar rover for in-situ resource utilization (ISRU) in an artificial lunar environment. In our first nationals appearance in 7 years, our team placed 19th nationally in berm construction, 7th in Systems Engineering, and won NASA's inaugural Rocket Award!",
+        image_path: "/assets/lunabotics_2026.jpg",
+        link: "https://www.nasa.gov/centers-and-facilities/kennedy/nasas-2026-lunabotics-winning-student-teams-engineering-lunar-future/"
+    },
+    {
         headline: "Awarded 2025 Jerry Fiddler Innovation Undergraduate Student Fellowship",
         date: "Oct 31, 2025",
         description: "I won the $1,500 Jerry Fiddler Innovation Undergraduate Fellowship for outstanding interdisciplinary research contributions! My award selection was focused around my work on LSST anomaly detection.",
@@ -21,18 +34,6 @@ const News = [
         description: "I was interviewed for and featured by the NCSA's end-of-year article on the Students Pushing Innovation (SPIN) program. This article spotlights my involvement as co-organizer of the 3rd Annual NCSA Students Research Conference in April 2025, as well as my research throughout the school year on transient anomaly detection for the LSST!",
         image_path: "/assets/Arjun-Shaan-Bill-Gropp.jpeg",
         link: 'https://www.ncsa.illinois.edu/spin-closes-out-a-year-of-accomplishments-and-recognizes-the-outstanding-work-of-the-programs-interns-and-mentors/',
-    },
-    {
-        headline: "Coming Soon",
-        date: "...",
-        description: "Coming Soon!",
-        image_path: "/assets/comingsoon.jpg",
-    },
-    {
-        headline: "Coming Soon",
-        date: "...",
-        description: "Coming Soon!",
-        image_path: "/assets/comingsoon.jpg",
     },
 ];
 
