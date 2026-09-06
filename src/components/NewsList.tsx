@@ -11,13 +11,13 @@ const News = [
     {
         headline: "Completed internship at Rivian!",
         date: "Aug 14, 2026",
-        description: "I interned at Rivian during Summer 2026 on the Autonomy Middleware team in the Bay Area! I had a great time working on ML inference software for orchestrating multi-model perception pipeline on vehicle GPUs, accelerating the development of Rivian's self-driving platform!",
+        description: "I interned at Rivian during Summer 2026 on the Autonomy Middleware team in the Bay Area! I had a great time working on ML inference software for orchestrating multi-model perception pipelines on vehicle GPUs and accelerating the development of Rivian's self-driving platform!",
         image_path: "/assets/rivian.jpg",
     },
     {
         headline: "Competed at 2026 NASA Lunabotics Robotic Mining Challenge",
         date: "May 22, 2026",
-        description: "As President of UIUC's Illinois Robotics in Space RSO, I led the 40-member team to design and build an autonomous lunar rover for in-situ resource utilization (ISRU) in an artificial lunar environment. In our first nationals appearance in 7 years, our team placed 19th nationally in berm construction, 7th in Systems Engineering, and won NASA's inaugural Rocket Award!",
+        description: "As President of UIUC's Illinois Robotics in Space RSO, I led the 40-member team to design and build an autonomous lunar rover for in-situ resource utilization (ISRU) in an artificial lunar environment. In our first nationals appearance in 7 years, our team placed 19th in berm construction, 7th in Systems Engineering, and won NASA's inaugural Rocket Award!",
         image_path: "/assets/lunabotics_2026.jpg",
         link: "https://www.nasa.gov/centers-and-facilities/kennedy/nasas-2026-lunabotics-winning-student-teams-engineering-lunar-future/"
     },
